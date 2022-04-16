@@ -14,7 +14,7 @@ const Router = () => {
     //   ],
     // },
 
-    { path: "/", element: <MainPage /> },
+    { path: "/", element: <MainLayout /> },
     { path: "/quiz", element: <QuizTrivia /> },
     { path: "/2048-animated", element: <MainPage /> },
   ]);

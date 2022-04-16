@@ -73,6 +73,11 @@
   border-radius: 7px;
 }
 
+.score-text {
+  color: white;
+  float: right;
+}
+
 .cell,
 .tile {
   width: 100px;
@@ -181,7 +186,7 @@
 
 .tile.new,
 .overlay {
-  animation-duration: 0.2s;
+  animation-duration: 0.5s;
   animation-name: newTile;
   animation-fill-mode: forwards;
   animation-delay: 0.15s;
